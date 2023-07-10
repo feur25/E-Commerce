@@ -1,0 +1,20 @@
+.custom-btn {
+  display: block;
+  width: 100%;
+  line-height: 1.4;
+  padding-left: 5px;
+  padding-right: 5px;
+  white-space: normal;
+  margin-top: 0;
+  margin-bottom: 10px;
+  min-height: 44px;
+  transition: all 0.1s ease-in-out;
+
+  &:hover {
+    transform: scale(1.02);
+  }
+
+  &:active {
+    transform: scale(1.04);
+  }
+}

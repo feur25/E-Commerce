@@ -1,0 +1,37 @@
+.nav-menu {
+  margin: auto auto auto 40vw;
+  display: flex;
+  flex-direction: row;
+  // justify-content: center;
+  // display: grid;
+  grid-template-columns: 1fr 4fr 1fr;
+  padding: 2rem;
+
+  a {
+    text-decoration: none;
+    &:focus,
+    &:visited {
+      color: black;
+    }
+    &:hover{
+      color: rgb(255, 255, 255);
+    }
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  ul {
+    list-style: none;
+    text-align: center;
+    margin: auto;
+    padding: 0;
+
+    li {
+      display: inline-block;
+      margin: 0 1rem;
+      cursor: pointer;
+    }
+  }
+}

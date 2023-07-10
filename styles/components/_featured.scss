@@ -1,0 +1,41 @@
+.featured-product {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  padding: 1rem;
+  min-width: 24%;
+  margin: 0 0.5rem 0 0.5rem;
+
+  @include respond(tab-port) {
+    margin: 1rem 2rem;
+  }
+
+  .featured-image {
+    position: relative;
+    width: 100%;
+    flex: 1 0 50%;
+  }
+}
+
+.featured-collection {
+  margin-top: 6rem;
+
+  .featured-section-title {
+    font-size: 2rem;
+  }
+
+  .featured-image {
+    cursor: pointer;
+  }
+
+  .products {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5px;
+
+    @include respond(tab-port) {
+      justify-content: center;
+      flex-direction: column;
+    }
+  }
+}
